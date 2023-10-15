@@ -3,14 +3,12 @@ the data utils procedure of the project Super-Revolution Reconstruction Method o
 
 BRANCH- psnr_ssim_calcualtion
 
-setting environment:
-cv2
-torch
-math
-numpy 
-pytorch_ssim
-PIL
-skimage
+setting environment:(python 3.6)
+conda install pytorch==1.1.0 torchvision==0.3.0 cudatoolkit=10.0 -c pytorch
+pip install pillow==5.2.0
+pip install opencv-python
+pip install scipy
+
 
 The data set(jpg image)
 training set: the images begin with 0_1 or 1_1
