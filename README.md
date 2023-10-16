@@ -13,3 +13,9 @@ testing set: the images begin with 0-9 or 1-9
 Processing:
 1. Editing the path in 2png.py and blur.py
 2. Run 2png.py and blur.py
+
+
+datalist.py:
+settings: numpy python2.7
+scan a folder and list all files in the directory and all sub-directories in it
+ 
